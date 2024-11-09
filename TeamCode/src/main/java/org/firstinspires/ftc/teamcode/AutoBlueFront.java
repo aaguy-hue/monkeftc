@@ -79,13 +79,16 @@ public class AutoBlueFront extends LinearOpMode {
         int c = 0;
         switch(location) {
             case LEFT:
-                points[0] = new coord(-2, 23.941, 5.83376302, 2, 2, Math.toRadians(3)); // place on purple pixel mark
+                points[0] = new coord(0, 23.941, 0, 2, 2, Math.toRadians(3)); // place on purple pixel mark
+                points[1] = new coord(-2, 23.941, 5.83376302, 2, 2, Math.toRadians(3)); // place on purple pixel mark
+                c = 1;
+                code[0] = -100;
                 break;
             case MIDDLE:
-                points[0] = new coord(0, 29.8979, 0, 2, 2, Math.toRadians(3)); // place on purple pixel mark
+                points[0] = new coord(0, 24.8979, 0, 2, 2, Math.toRadians(3)); // place on purple pixel mark
                 break;
             case RIGHT:
-                points[0] = new coord(6.6758, 25.8324, 0.7125856101, 2, 2, Math.toRadians(3)); // place on purple pixel mark
+                points[0] = new coord(6.6758, 22.8324, 0.7125856101, 2, 2, Math.toRadians(3)); // place on purple pixel mark
                 break;
         }
 

@@ -20,7 +20,7 @@ public class AutoBlueBack extends LinearOpMode {
 
     public coord[] points = new coord[100];
     public static double fromBack = -83.2;
-    public static coord leftDepo = new coord(fromBack, 20.3, 4.71239, 0.8, 0.8, Math.toRadians(3));
+    public static coord leftDepo = new coord(fromBack, 21.2, 4.71239, 0.8, 0.8, Math.toRadians(3));
     public static coord rightDepo = new coord(fromBack, 34.0, 4.71239, 2, 0.8, Math.toRadians(3));
     public static coord centerDepo = new coord(fromBack, 23.9381, 4.71239, 2, 0.8, Math.toRadians(3));
     public static coord centerDepo2 = new coord(fromBack, 21.9381, 4.71239, 2, 0.8, Math.toRadians(3));
